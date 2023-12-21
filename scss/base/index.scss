@@ -3,35 +3,21 @@
 @forward 'variables';
 
 
-.container {
-   font-family: Arial, sans-serif;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-   margin: 0;
-   #registrationForm {
-      border: 1px solid #ccc;
-      padding: 20px;
-      border-radius: 10px;
-      width: 300px;
+.main-register {
+   text-align: center;
+   margin-top: 50px;
+   #formcontainer {
+      display: inline-block;
+      text-align: left;
       label {
          display: block;
-         margin-bottom: 8px;
+         margin-bottom: 10px;
       }
       input {
-         width: 100%;
-         padding: 8px;
-         margin-bottom: 12px;
-         box-sizing: border-box;
+         margin-bottom: 10px;
       }
       button {
-         background-color: #4CAF50;
-         color: white;
-         padding: 10px 15px;
-         border: none;
-         border-radius: 5px;
-         cursor: pointer;
+         margin-top: 10px;
       }
    }
 }
