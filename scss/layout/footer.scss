@@ -1,0 +1,28 @@
+.footer {
+   background: var(--Black, #232536);
+   .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top:54px;
+      padding-bottom:54px;
+      .left__content {
+         p {
+            color: var(--Light, #FFF);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            opacity: 0.7;
+         }
+      }
+      .right__content {
+         img {
+            padding-left:20px;
+         }
+      }
+
+   }
+
+}

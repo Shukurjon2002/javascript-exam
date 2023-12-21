@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet | Register</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="stylesheet" href="./css/header.min.css">
+    <link rel="stylesheet" href="./css/index.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav__left">
+            <div class="logo">
+              <h2>{Finsweet</h2>
+            </div>
+          </div>
+          <div class="nav__right">
+            <ul class="link__page">
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./blog-post.html">Blog</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./register.html">Register</a></li>
+            </ul>
+            <button class="login__page">
+              <a href="">Login</a>
+            </button>
+          </div>
+        </div>
+        
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <form id="registrationForm">
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname">
+          
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="lastname">
+          
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+  
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword">
+  
+          <button type="button" onclick="checkAndSubmit()">Register</button>
+        </form>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./js/register.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

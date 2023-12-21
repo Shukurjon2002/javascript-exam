@@ -1,0 +1,14 @@
+@use '../base' as *;
+
+
+#allPosts {
+   .post-item {
+      display: flex;
+      .post-image-container {
+         
+      }
+      .post-detail-container {
+
+      }
+   }
+}
